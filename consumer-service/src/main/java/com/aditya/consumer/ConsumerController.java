@@ -1,0 +1,1 @@
+package com.aditya.consumer; import org.springframework.web.bind.annotation.*; @RestController @RequestMapping("/api/consumer") public class ConsumerController{private final EventConsumer c; public ConsumerController(EventConsumer c){this.c=c;} @GetMapping("/stats") public String stats(){return "consumed="+c.count();}}
