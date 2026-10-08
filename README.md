@@ -17,7 +17,7 @@ Client → Producer :8081 → Kafka `orders.events`
 Prometheus: http://localhost:9090 — Grafana: http://localhost:3000 (admin/admin initially).
 
 ## GitHub
-`git init && git add . && git commit -m "Day 24 distributed event streaming platform" && git branch -M main && git remote add origin https://github.com/YOUR_USERNAME/distributed-event-streaming-day24.git && git push -u origin main`
+`git init && git add . && git commit -m "Day 24 distributed event streaming platform" && git branch -M main && git remote add origin https://github.com/Vermaaditya3030/distributed-event-streaming-day24.git && git push -u origin main`
 
 ## Production roadmap
 Kafka replication/partitions, Schema Registry + Avro/Protobuf, idempotent consumers, retry/DLT topics, PostgreSQL event store, outbox pattern, OAuth2/JWT, OpenTelemetry, Kubernetes, secrets management.
